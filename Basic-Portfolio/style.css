@@ -1,0 +1,161 @@
+* {
+    margin: auto 0;
+    padding: auto 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.topnav {
+    
+    background-color: #ffff;
+    border-color: #cccccc;
+    overflow: hidden;
+    max-height: 60px;
+   
+  }
+
+.name {
+    background-color: teal;
+    color: #efeee7;
+    margin-left: 10%;
+    width: 25%; 
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+  }
+  
+.topnav a {
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    border-right: 2px solid #efeee7;
+    float: right;
+    padding: 20px 40px;
+    max-height: 60px;;
+  }
+
+body {
+    background-image: url("concrete-texture.png");
+    background-color: #dddddd;
+    font-family: Georgia, 'Times New Roman',
+    Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+.container #contact {
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.container #main-bio {
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+#bio-image {
+    float:left;  
+}
+
+#main-bio, #contact {
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#bio-image {
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container #portfolio {
+    background: white;
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+  
+input[type=text] {
+    width: 95%;
+    padding: 20px; 
+}
+
+input {
+    width: 95%;
+    padding: 20px;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: #ddd;
+    padding: 20px;
+    width: 15%;
+}
+
+/* body.portfoliopage{margin:25px;}*/
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.poloriodpage.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+footer {
+    position: relative;
+    font-size: 14px;
+    background-color: grey;
+    clear: both;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: teal;
+}
+
+#sticky {
+        width:100%;
+        position:fixed;    
+        bottom:0;          
+        left:0; 
+}
