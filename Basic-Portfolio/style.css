@@ -1,59 +1,60 @@
 * {
     margin: auto 0;
     padding: auto 0;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 7, 33);
+    font-family: 'Julius Sans One', sans-serif;
     box-sizing: border-box;
 
 }
 
-.topnav {
-    
-    background-color: #ffff;
-    border-color: #cccccc;
-    overflow: hidden;
-    max-height: 60px;
-   
+  #titleLogo {
+      width: 423px;
+      height: 90px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2%;
+      display: block;
+      
   }
 
-.name {
-    background-color: teal;
-    color: #efeee7;
-    margin-left: 10%;
-    width: 25%; 
-    text-align: center;
-    line-height: 60px;
-    font-size: 25px;
+
+  .nav-item a {
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgb(0, 0, 28);
+    font-size: 16px;
   }
-  
-.topnav a {
-    color: grey;
+
+.nav-link a {
     text-align: center;
     text-decoration: none;
     border-right: 2px solid #efeee7;
-    float: right;
+    float: left;
     padding: 20px 40px;
     max-height: 60px;;
   }
 
+  .nav-link:hover{
+      color:  rgba(0, 0, 28, 0.468);
+  }
+
 body {
-    background-image: url("concrete-texture.png");
-    background-color: #dddddd;
-    font-family: Georgia, 'Times New Roman',
-    Times, serif;
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     font-size: 18px;
     line-height: 150%;
     color: #333;
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 h2 {
     font-size: 24px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: teal;
+    color: rgb(0, 7, 33);
+}
+
+h3{
+    font-size: 12px;
+    color:rgb(0, 7, 33);
+    letter-spacing: 4px; 
 }
 
 .container #contact {
@@ -71,91 +72,87 @@ h2 {
 
 #bio-image {
     float:left;  
-}
-
-#main-bio, #contact {
-    width: 70%;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: white;
-}
-
-#bio-image {
     margin-right: 30px;
-    width: 200px;
-    height: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 250px;
+    height: 250px;
 }
 
 .container{
-    width: 960px;
+    width: 0 auto;
     margin: 0 auto;
     padding: 20px;
+    background-color: rgba(245, 245, 245, 0.53)
 }
-.container #portfolio {
-    background: white;
-    width: 960px;
-    margin: 0 auto;
-    border-radius: 5px;
-    padding: 35px;
-}
-
-  
-input[type=text] {
-    width: 95%;
-    padding: 20px; 
-}
+ 
 
 input {
-    width: 95%;
-    padding: 20px;
+    width: 90%;
+    padding: 25px;
 }
 
 input[type=submit] {
-    background-color: teal;
+    background-color: rgb(0, 7, 33);
     color: #ddd;
     padding: 20px;
     width: 15%;
 }
 
-/* body.portfoliopage{margin:25px;}*/
 
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
 .column {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 
-/* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-div.poloriodpage.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-
 footer {
     position: relative;
-    font-size: 14px;
-    background-color: grey;
     clear: both;
     text-align: center;
-    border-top-style: solid;
-    border-top-color: teal;
+    margin-top: 200px;
 }
 
-#sticky {
+@media screen and (max-width:640px) {
+    .container {
         width:100%;
-        position:fixed;    
-        bottom:0;          
-        left:0; 
+    }
+
+    .topnav, .topnav a {
+        clear: both;
+        width:100%;
+    }
 }
+
+@media screen and (max-width:768px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+}
+    .column {
+    width: 100%;
+}}
+
+@media screen and (max-width:980px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+}
+    .column {
+    width: 100%;
+}}
+
+@media screen and (max-width:640px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+    .column {
+    width: 100%;
+}}
