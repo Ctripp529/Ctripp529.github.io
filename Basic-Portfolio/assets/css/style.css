@@ -119,7 +119,7 @@ footer {
     margin-top: 200px;
 }
 
-@media screen and (max-width:640px) {
+/* @media screen and (max-width:640px) {
     .container {
         width:100%;
     }
@@ -155,4 +155,4 @@ footer {
     }
     .column {
     width: 100%;
-}}
+}} */
