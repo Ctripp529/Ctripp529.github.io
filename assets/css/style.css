@@ -255,3 +255,23 @@ input[type=submit] {
   bottom: 0px;
   left: 43px;
 }
+
+@media (max-width:800px){
+  #ckLogo{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 6rem;
+   
+  }
+  
+  #designLogo{
+    font-family: 'Allura', cursive;
+    font-size: 6rem; 
+    /* margin-top: 2rem; */
+    margin-block-start: 6rem;
+    
+  }
+  footer{
+    margin-left: 2rem;
+    margin-right: 3rem;
+  }
+}
