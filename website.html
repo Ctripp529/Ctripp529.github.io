@@ -184,28 +184,28 @@
         <section id="list-item-4" class="sections">
                 <!-- contact Modal -->
                 <div id="contactModal" class="modal">
-                    <div class="modal-content"><a class="modal-close"> <i class="material-icons">close</i></a>
+                    <!-- <div class="modal-content"><a class="modal-close"> <i class="material-icons">close</i></a> -->
                         <h3>Get in Touch</h3>
                         <div class="insideCont">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="well well-md">
-                                        <form class="form-horizontal" method="post">
+                                        <form class="form-horizontal" role="form" method="post">
                                             <fieldset>
                                                 <div class="form-group">
                                                     <div class="col-mx-auto">
                                                         <input id="fname" name="name" type="text" placeholder="First Name"
-                                                            class="form-control">
+                                                            class="form-control" required>
                                                     </div>
                                                     <div class="col-mx-auto">
                                                         <input id="lname" name="name" type="text" placeholder="Last Name"
-                                                            class="form-control">
+                                                            class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <div class="col-mx-auto">
                                                         <input id="email" name="email" type="text" placeholder="Email Address"
-                                                            class="form-control">
+                                                            class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -222,14 +222,15 @@
                                                 </div>
 
                                             </fieldset>
+                                            <div class="modal-footer">
+                                                <a href="#" class="modal-close waves-effect waves-navy btn-flat">Submit</a>
+                                            </div>
                                         </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="modal-footer">
-                            <a href="#" class="modal-close waves-effect waves-navy btn-flat">Submit</a>
-                        </div>
+                        
                     </div>
         </section>
         <footer class="page-footer blue-grey lighten-2">
@@ -240,7 +241,7 @@
                     </div>
                     <div class="col s6 push-s4">
                       <ul>
-                        <a href="#contactModal" data-toggle="modal"><i class="far fa-envelope-open"> Contact</i></a>
+                        <!-- <a href="#contactModal" data-toggle="modal"><i class="far fa-envelope-open"> Contact</i></a> -->
                         <a href="https://github.com/Ctripp529" target="_blank"><i class="fab fa-github"> Github</i></a>
                         <a href="https://www.linkedin.com/in/cassie-koyle-2786a2161/" target="_blank"><i class="fab fa-linkedin-in"> Linkedin</i></a>
                         <!-- <li><a href="https://twitter.com/CassieKoyle" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
